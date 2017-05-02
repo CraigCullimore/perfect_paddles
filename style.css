@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url('fonts/pacifico.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'karla-regular';
+    src: url('fonts/karla-regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'karla-italic';
+    src: url('fonts/karla-italic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'karla-bolditalic';
+    src: url('fonts/karla-bolditalic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'karla-bold';
+    src: url('fonts/karla-bold.ttf') format("truetype");
+}
+
+nav {
+    font-size: 16px;
+    font-family: Karla-Regular;
+    color: white;
+}
+
+
+p { 
+    font-size: 16px;
+    font-family: Karla-Regular;
+    color: #2d2d2d;
+}
+
+.site_header {
+    background: #969696 url('images/kayak-bkgd.jpg') no-repeat center top;
+    background-size: cover;
+    Height: 400px
+}
+
+.site_header h1 {
+    font-size: 46px;
+    text-align: center;
+    font-family: 'pacifico';
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px
+      
+}
+
+.site_header p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    /*height: 46px;*/
+    padding: 50px 10px 0px 10px; 
+    margin: 0px;
+}
+
+header h2 {
+    margin: 100px 0 30px 0;
+    font-size: 26px;
+    font-family: 'pacifico';
+    color: #646464;
+    text-align: center;
+    height: 46px;
+    padding: 30px;
+}
+
+header h3 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'pacifico';
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.about_copy  {
+    text-align: center;
+    height: 46px;
+    padding: 0px 100px 0px 100px;
+    margin: 20px;
+}
+
+.rentals_copy p {
+    height: 46px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+}
+
+.location_copy p {
+    height: 46px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+}
+
+footer p {
+    color: white;
+    height: 46px;
+    padding: 0px 100px 0px 100px;
+    margin: 0px;
+}
+
+.logo {
+    background-image: url('images/perfect-paddles-logo.svg');
+    background-size: 30%;
+    background-position: 40px;
+    background-repeat: no-repeat;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+/*body {
+    background: #969696 url('images/kayak-bkgd.jpg') no-repeat center top;
+    background-size: contain;
+}*/
+
+footer {
+    background-size: 30%;
+    background-position: 40px;
+    background-repeat: no-repeat;
+    height: 80px;
+    padding: 30px;
+    margin: 0px;
+    background-color: black;
+}
+
+a {
+    color: #e2574c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b64036;
+    text-decoration: none;
+}
