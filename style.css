@@ -106,6 +106,13 @@ footer p {
     margin: 0px;
 }
 
+footer aside p {
+    color: white;
+    height: 46px;
+    padding: 0px 100px 0px 100px;
+    margin: 0px;
+}
+
 .logo {
     background-image: url('images/perfect-paddles-logo.svg');
     background-size: 30%;
