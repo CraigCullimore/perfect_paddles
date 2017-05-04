@@ -23,12 +23,36 @@
     src: url('fonts/karla-bold.ttf') format("truetype");
 }
 
-nav {
+.logo {
+    background-image: url('images/perfect-paddles-logo.svg');
+    background-size: 30%;
+    background-position: 20px;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: auto;
+    background-color: black;
+}
+
+
+.nav_menu {
+    text-align: right;
+    padding: 20px;
+    
+    
+}
+nav a{
     font-size: 16px;
     font-family: Karla-Regular;
     color: white;
+    padding: 20px;    
 }
 
+
+nav a:hover {
+    color: blue;
+    text-decoration: none;
+
+}
 
 p { 
     font-size: 16px;
@@ -39,7 +63,7 @@ p {
 .site_header {
     background: #969696 url('images/kayak-bkgd.jpg') no-repeat center top;
     background-size: cover;
-    Height: 400px
+    height: 400px;
 }
 
 .site_header h1 {
@@ -48,7 +72,8 @@ p {
     font-family: 'pacifico';
     color: white;
     padding: 0px 0px 0px 0px;
-    margin: 0px
+    margin: 0px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.31);
       
 }
 
@@ -59,6 +84,7 @@ p {
     /*height: 46px;*/
     padding: 50px 10px 0px 10px; 
     margin: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
 }
 
 header h2 {
@@ -69,6 +95,7 @@ header h2 {
     text-align: center;
     height: 46px;
     padding: 30px;
+    
 }
 
 header h3 {
@@ -78,14 +105,28 @@ header h3 {
     color: white;
     padding: 0px;
     margin: 0px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.31);
 }
 
-.about_copy  {
+.about_copy {
     text-align: center;
     height: 46px;
     padding: 0px 100px 0px 100px;
     margin: 20px;
 }
+
+img {
+    height: auto;
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.34);
+}
+
+.image_container {
+    text-align: center
+}
+
 
 .rentals_copy p {
     height: 46px;
@@ -113,16 +154,7 @@ footer aside p {
     margin: 0px;
 }
 
-.logo {
-    background-image: url('images/perfect-paddles-logo.svg');
-    background-size: 30%;
-    background-position: 40px;
-    background-repeat: no-repeat;
-    height: 80px;
-    padding: 0px;
-    margin: 0px;
-    background-color: black;
-}
+
 
 /*body {
     background: #969696 url('images/kayak-bkgd.jpg') no-repeat center top;
