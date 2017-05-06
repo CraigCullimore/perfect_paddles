@@ -23,6 +23,8 @@
     src: url('fonts/karla-bold.ttf') format("truetype");
 }
 
+/* begin header area*/
+
 .logo {
     background-image: url('images/perfect-paddles-logo.svg');
     background-size: 30%;
@@ -33,13 +35,15 @@
     background-color: black;
 }
 
-
 .nav_menu {
     text-align: right;
-    padding: 20px;
-    
-    
+    padding: 20px;   
 }
+
+li {
+    display: inline;
+}
+
 nav a{
     font-size: 16px;
     font-family: Karla-Regular;
@@ -47,18 +51,12 @@ nav a{
     padding: 20px;    
 }
 
-
 nav a:hover {
     color: blue;
     text-decoration: none;
 
 }
 
-p { 
-    font-size: 16px;
-    font-family: Karla-Regular;
-    color: #2d2d2d;
-}
 
 .site_header {
     background: #969696 url('images/kayak-bkgd.jpg') no-repeat center top;
@@ -86,24 +84,6 @@ p {
     margin: 0px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
 }
-
-/*.btn {
-  border-radius: 28px;
-  font-family: Karla-Regular;
-  color: #ffffff;
-  font-size: 20px;
-  background: #d16262;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #c23131;
-  text-decoration: none;
-}
-.btn a {
-    color: white;
-}*/
 
 .btn {
 	background-color:#44c767;
@@ -149,6 +129,14 @@ header h3 {
     padding: 0px;
     margin: 0px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.31);
+}
+
+/*end header area*/
+
+p { 
+    font-size: 16px;
+    font-family: Karla-Regular;
+    color: #2d2d2d;
 }
 
 .about_copy {
