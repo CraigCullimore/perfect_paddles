@@ -2,63 +2,94 @@
 <html>
     <head>
         <title>Perfect Paddles</title>
-        <link rel="stylesheet" href="./reset.css">
-
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/css_reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
     <body>
-        
-        <header class="site_header">
-            <nav class="logo">
-                <ul class="nav_menu">
-                    <li><a href="">ABOUT </a>
-                    <li><a href="">RENTALS </a>
-                    <li><a href="">LOCATION </a>
-                </ul>
-            </nav>
-            <p> ENJOY THE </p>
-            <h1> Great Outdoors </h1>
-            <h3> from the water </h3>
-            <p> Rent our canoes year-round, take lessons, or join a group tour.</p>
-            <div class="btn">
-                <a href="#">SIGN ME UP!</a>
+        <nav class="nav_logo nav_background">
+            <ul>
+                <li><a href=""> ABOUT </a></li>
+                <li><a href=""> RENTALS </a> </li>
+                <li><a href=""> LOCATION </a> </li>
+            </ul>
+        </nav>
+        <header class="hero_image">
+            <div class="hero_text">
+                <p> ENJOY THE </p>
+                <h1> Great Outdoors </h1>
+                <h3> from the water </h3>
+            </div>                
+            <div class="cta_background">
+                <p> Rent our canoes year-round, take lessons, or join a group tour.</p>
+            </div>
+                <div class="btn">
+                    <a href="#">SIGN ME UP!</a>
+                </div>
             </div>
         </header>
 
-        <header>    
-            <h2 class="section_title"> About </h2>
-        </header>
+         
+    
         <article>
+            <h2 class="section_title"> About </h2>
             <section>
                 <p class="about_copy"> Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks. We cater to all skill levels and abilities, and offer a variety of lessons and tours too.</p>
-            <div class="image_container">
-                <img src="images/sunset-kayak.jpg"/>
-                <img src="images/coffee-adventure.jpg"/>
-                <img src="images/girl-in-kayak.jpg"/>
+            <div class="about_images">
+                <img src="./images/sunset-kayak.jpg"/>
+                <img src="./images/coffee-adventure.jpg"/>
+                <img src="./images/girl-in-kayak.jpg"/>
             </div>
             </section>
         </article>
 
     
-        <header>
-                <h2 class="section_title"> Rentals </h2>
-        </header>
+        
         <article>
-            <section class="rentals_copy">
-                <p> All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration.</p>
-                <p> Please note that we require 24 hours notice for all cancellations, and late returns will be charged accordingly.</p>
-                <p> Call <a href="#" target="_blank">(604) 604-6040</a> to book now!</p>
-            </section>
-            <aside> 
-                <p> Duration, Single Kayak, Double Kayak 2 hours, $35, $55 1 Day, $90, $130 Extra Day, $45, $65 Season Pass, $249, $349</p>
-            </aside>
+            <h2 class="section_title"> Rentals </h2>
+            <div class="rentals_copy">
+                <section>
+                    <p> All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration.</p>
+                    <p> Please note that we require 24 hours notice for all cancellations, and late returns will be charged accordingly.</p>
+                    <p> Call <a href="#" target="_blank"> (604) 604-6040 </a> to book now!</p>
+                </section>
+                <aside> 
+                    <table>
+                        <tr>
+                            <th>Duration</th>
+                            <th>Single Kayak</th>
+                            <th>Double Kayak</th>
+                        </tr>
+                        <tr>
+                            <td>2 hours</td>
+                            <td>$35</td> 
+                            <td>$55</td>
+                        </tr>
+                        <tr>
+                            <td>1 Day</td>
+                            <td>$90</td>
+                            <td>$130</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Day</td>
+                            <td>$45</td>
+                            <td>$65</td>
+                        </tr>
+                        <tr>
+                            <td>Season Pass</td>
+                            <td>$249</td>
+                            <td>$349</td>
+                        </tr>
+                    </table>
+                </aside>
+            </div>
         </article>
         
-        <header>   
-            <h2 class="section_title"> Location </h2>
-        </header>   
+         
         <article>
+            <h2 class="section_title"> Location </h2>
             <section class="location_copy">
                 <p> Come visit us at our location on Cornwall Avenue and Yew Street in Vancouver:</p>
             </section>
@@ -66,24 +97,33 @@
 
         <footer>
             <section>    
-                <p> &copy; 2017 Perfect Paddles Kayak Co. <br> Powered by HTML and CSS. </p>    
-                <p> (604) 604-6040 <a href="mailto:info@perferctpaddles.com">info@perfectpaddles.com</a> </p>
-                <p> Cornwall Avenue & Yew Street Vancouver, BC, Canada </p>
+                <div>
+                    <p> &copy; 2017 Perfect Paddles Kayak Co. </p>
+                    <p> Powered by HTML and CSS. </p> 
+                </div>   
+                
+                <div>
+                <p>(604) 604-6040<a href="mailto:info@perferctpaddles.com">info@perfectpaddles.com</a> </p>
+                </div>
+                
+                <div>
+                <p>Cornwall Avenue & Yew Street</p>
+                <p>Vancouver, BC, Canada </p>
+                </div>
             </section>
-            <aside>
-                <p> facebook: https://facebook.com twitter: https://twitter.com instagram: https://instagram.com pinterest: https://pinterest.com google+: https://plus.google.com</p>
+            
+            <aside class="social">
+                <ul>
+                    <li> <a href="http://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i><p>facebook</p></a></li>
+                    <li> <a href="http://www.twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i><p>twitter</p></a></li>
+                    <li> <a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i><p>instagram</p></a> </li>
+                    <li> <a href="http://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i><p>pinterest</p></a></li>
+                    <li> <a href="http://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i><p>pinterest</p></a></li>
+                    <li> <a href="http://www.googleplus.com"><i class="fa fa-google-plus" aria-hidden="true"></i><p>google+</p></a></li>
+                </ul>
             </aside>
         </footer>
-
     </body>
-
-
-
-
-
-
-
-
 </html>
 
 
