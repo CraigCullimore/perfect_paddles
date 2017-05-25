@@ -1,0 +1,377 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url('../fonts/pacifico.eot');
+    src: url('pacific.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pacifico.woff') format('woff'),
+         url('../fonts/pacifico.ttf') format('truetype'),
+         url('../fonts/pacifico.svg#pacific') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'karla-regular';
+    src: url('../fonts/karla-regular.eot');
+    src: url('pacific.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-regular.woff') format("woff"),
+         url('../fonts/karla-regular.ttf') format("truetype"),
+         url('../fonts/karla-regular.svg#karla-regular') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karla-italic';
+    src: url('../fonts/karla-italic.eot');
+    src: url('pacific.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-italic.woff') format("woff"),
+         url('../fonts/karla-italic.ttf') format("truetype"),
+         url('../fonts/karla-italic.svg#karla-italic') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karla-bolditalic';
+    src: url('../fonts/karla-bolditalic.eot');
+    src: url('pacific.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-bolditalic.woff') format("woff"),
+         url('../fonts/karla-bolditalic.ttf') format("truetype"),
+         url('../fonts/karla-bolditalic.svg#karla-bolditalic') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karla-bold';
+    src: url('../fonts/karla-bold.eot');
+    src: url('pacific.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-bold.woff') format("woff"),
+         url('../fonts/karla-bold.ttf') format("truetype"),
+         url('../fonts/karla-bold.svg#karla-bold') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Navigation
+==============================================================*/
+
+a {
+    color: #e2574c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b64036;
+    text-decoration: none;
+}
+
+.nav_logo{
+    background-image: url('../images/perfect-paddles-logo.svg');
+    background-repeat: no-repeat; 
+    /*display: flex;
+    align-content: flex-start;*/
+    background-size: 20%;
+    background-position: 20px;
+    position: relative;
+}
+.nav_background {
+    background-color: black;
+    /*display: flex;*/
+    height: 62px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+nav li { 
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: Karla-Bold;
+    color: white;
+}
+
+
+nav a {
+    font-size: 16px;
+    font-family: Karla-Bold;
+    color: white;
+    display: flex;
+
+}
+
+/*nav a:hover {
+    color: blue;
+    text-decoration: none;
+    display: flex;
+
+}*/
+
+/*Hero image
+==============================================================*/
+
+.hero_image {
+    background: #969696 url('../images/kayak-bkgd.jpg') no-repeat center top;
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_image h1 {
+    font-size: 104px;
+    text-align: center;
+    font-family: 'pacifico';
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.31);
+      
+}
+
+.hero_image p {
+    color: white;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
+}
+
+.hero_text p{
+    padding: 70px 0px 0px;
+    font-size: 24px;
+    font-family: Karla-Regular;
+    color: white;
+    /*line-height: 140%;*/
+
+}
+
+.cta_background p{
+    font-size: 21px;
+    font-family: Karla-Regular;
+    color: white;
+    white-space: nowrap;
+}
+
+.cta_background {
+    background-color: black;
+    opacity: 0.75;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    max-width: 610px;
+    padding: 8px 2px;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.btn {
+	background-color:#e2574c;
+	border-radius:28px;
+	display:block;
+    width: 120px;
+    margin: auto;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Karla-Regular;
+	font-size: 20px;
+	padding: 16px 12px;
+    text-align: center;
+
+}
+.btn:hover {
+	background-color:#b64036;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btn a{
+    color: white;
+}
+
+/*Hero image end
+==============================================================*/
+
+.section_title {
+    margin: 100px 0 30px 0;
+    font-size: 47px;
+    font-family: 'pacifico';
+    color: #646464;
+    text-align: center;
+    height: 46px;
+    padding: 30px;
+    
+}
+
+header h3 {
+    font-size: 47px;
+    text-align: center;
+    font-family: 'pacifico';
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.31);
+}
+
+p { 
+    font-size: 16px;
+    font-family: Karla-Regular;
+    color: #2d2d2d;
+    line-height: 140%;
+
+}
+
+/*about
+==============================================================*/
+
+.about_copy {
+    text-align: center;
+    height: 46px;
+    padding: 0px 100px 50px 100px;
+    margin: 20px;
+    line-height: 140%;
+}
+
+.about_images {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;    
+
+}
+
+img {
+    width: 30%;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.34);
+}
+
+
+/*rentals
+==============================================================*/
+
+.rentals_copy {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 30px;
+    
+}
+
+table {
+    text-align: right;
+    margin: 0px 0px 0px 50px;
+    /*width: 50%;*/
+    white-space: nowrap;
+    border: 1px solid #c8c8c8;
+    border-collapse: collapse;
+    /*display: flex;*/
+    /*align-content: flex-end;*/
+}
+
+th {
+    font-family: Karla-Regular;
+    font-size: 17px;
+    text-align: center;
+    height: 40px;
+    /*padding: 10px 50px;*/
+    /*width: 50%;*/
+    min-width: 170px;
+    border: 1px solid lightgrey;
+    background: #e6e6e6;
+
+}
+
+tr {
+    font-family: Karla-Regular;
+    font-size: 17px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+}
+
+td {
+    height: 40px;
+    border: 1px solid #c8c8c8;
+}
+
+td:first-of-type {
+    text-align: left;
+    border-collapse: collapse;
+    padding: 0px 10px;
+    border-width: 1px solid #c8c8c8;
+}
+
+
+/*location
+==============================================================*/
+
+.location_copy p {
+    height: 46px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+}
+
+/*footer
+==============================================================*/
+
+footer {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    height: 24px;
+    margin: 0px;
+}
+
+footer section {
+    color: white;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    padding: 66px;
+
+}
+
+footer aside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer aside p {
+    display: inline;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+i {
+    color: white;
+}
