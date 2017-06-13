@@ -7,13 +7,16 @@
         <link rel="stylesheet" href="./css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    
+    <script src="./javascript/tota11y.min.js"></script>
     <body>
-        <nav class="nav_logo nav_background">
+        <nav class="nav_background">
+            <div class="nav_logo">
+                <img src="./images/perfect-paddles-logo.svg"/>
+            </div>
             <ul>
-                <li><a href=""> ABOUT </a></li>
-                <li><a href=""> RENTALS </a> </li>
-                <li><a href=""> LOCATION </a> </li>
+                <li><a href="about.html"> ABOUT </a></li>
+                <li><a href="rental.html"> RENTALS </a> </li>
+                <li><a href="location.html"> LOCATION </a> </li>
             </ul>
         </nav>
         <header class="hero_image">
@@ -26,7 +29,7 @@
                 <p> Rent our canoes year-round, take lessons, or join a group tour.</p>
             </div>
                 <div class="btn">
-                    <a href="#">SIGN ME UP!</a>
+                    <a href="">SIGN ME UP!</a>
                 </div>
             </div>
         </header>
@@ -34,7 +37,7 @@
          
     
         <article>
-            <h2 class="section_title"> About </h2>
+            <h2 class="section_title">About</h2>
             <section>
                 <p class="about_copy"> Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks. We cater to all skill levels and abilities, and offer a variety of lessons and tours too.</p>
             <div class="about_images">
@@ -53,7 +56,7 @@
                 <section>
                     <p> All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration.</p>
                     <p> Please note that we require 24 hours notice for all cancellations, and late returns will be charged accordingly.</p>
-                    <p> Call <a href="#" target="_blank"> (604) 604-6040 </a> to book now!</p>
+                    <p class="phone phone:hover"> Call <a href="#" target="_blank"> (604) 604-6040 </a> to book now!</p>
                 </section>
                 <aside> 
                     <table>
@@ -92,6 +95,11 @@
             <h2 class="section_title"> Location </h2>
             <section class="location_copy">
                 <p> Come visit us at our location on Cornwall Avenue and Yew Street in Vancouver:</p>
+                <iframe
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAjNnrbNDiQEnwHwpG7TsfuBpnaeXvbR8Q
+                    &q=Yew+St+%26+Cornwall+Ave,+Vancouver,+BC">
+                </iframe>
             </section>
         </article>
 
@@ -100,26 +108,19 @@
                 <div>
                     <p> &copy; 2017 Perfect Paddles Kayak Co. </p>
                     <p> Powered by HTML and CSS. </p> 
-                </div>   
-                
-                <div>
-                <p>(604) 604-6040<a href="mailto:info@perferctpaddles.com">info@perfectpaddles.com</a> </p>
-                </div>
-                
-                <div>
-                <p>Cornwall Avenue & Yew Street</p>
-                <p>Vancouver, BC, Canada </p>
+                    <br><p class="email email:hover" >(604) 604-6040 <a href="mailto:info@perferctpaddles.com">info@perfectpaddles.com</a></p>
+                    <br><p class="address">Cornwall Avenue & Yew Street</p>
+                    <p class="address">Vancouver, BC, Canada </p>
                 </div>
             </section>
             
             <aside class="social">
                 <ul>
-                    <li> <a href="http://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i><p>facebook</p></a></li>
-                    <li> <a href="http://www.twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i><p>twitter</p></a></li>
-                    <li> <a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i><p>instagram</p></a> </li>
-                    <li> <a href="http://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i><p>pinterest</p></a></li>
-                    <li> <a href="http://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i><p>pinterest</p></a></li>
-                    <li> <a href="http://www.googleplus.com"><i class="fa fa-google-plus" aria-hidden="true"></i><p>google+</p></a></li>
+                    <li><a href="http://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i><span><p>Facebook</p></span></a></li>
+                    <li><a href="http://www.twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i><span><p>Twitter</p></span></a></li>
+                    <li><a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i><span><p>Instagram</p></span></a> </li>
+                    <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i><span><p>Pinterest</p></span></a></li>
+                    <li><a href="http://www.googleplus.com"><i class="fa fa-google-plus" aria-hidden="true"></i><span><p>Google+</p></span></a></li>
                 </ul>
             </aside>
         </footer>
