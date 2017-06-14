@@ -502,18 +502,19 @@ i {
     /*footer
     ==================================*/
 
-        footer {width: 100%;
+        footer {
+            width: 100%;
             /*padding: 0px 10px 0px 10px;*/
         }
 
         footer section {
-        color: white;
-        padding: 0px 0px 0px 10px;
+            color: white;
+            padding: 0px 0px 0px 10px;
         }
 
         footer ul {
-        list-style-type: none;
-        padding: 0px 30px;
+            list-style-type: none;
+            padding: 0px 30px;
         }
 
 
@@ -587,18 +588,18 @@ i {
     /*cta
     ===================================*/
 
-    .cta_background p{
-        font-size: 16px;
-        font-family: Karla-Regular;
-        color: white;
-    }
+        .cta_background p{
+            font-size: 16px;
+            font-family: Karla-Regular;
+            color: white;
+        }
 
-    .cta_background {
-        width: 100%;
-        max-width: 300px;
-        padding: 6px .25%;
-        margin: 20px 0px 0px 0px;
-    }
+        .cta_background {
+            width: 100%;
+            max-width: 300px;
+            padding: 6px .25%;
+            margin: 20px 0px 0px 0px;
+        }
 
     /*button
     ===================================*/
