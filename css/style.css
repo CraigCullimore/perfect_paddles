@@ -589,6 +589,109 @@
             margin: 20px 0px 0px 0px;
         }
 
+<<<<<<< HEAD
+    /*footer
+    ==================================*/
+    
+}
+
+<<<<<<< HEAD
+    .btn {
+        background-color:#e2574c;
+        border-radius:28px;
+        display:block;
+        width: 120px;
+        margin: 40px;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Karla-Regular;
+        font-size: 20px;
+        padding: 16px 12px;
+        text-align: center;
+<<<<<<< HEAD
+        height: 46px;
+        padding: 0px 2% 50px 2%;
+        margin: 20px;
+        line-height: 140%;
+    }*/
+}
+
+
+
+
+
+
+/*footer
+==================================*/
+
+
+/*Smartphones iPhone6*/
+
+/*hero
+==================================*/
+
+/*about
+==================================*/
+
+@media only screen and (max-width : 375px) {
+    nav {
+    flex-direction: column;
+    }
+    
+    .about_images {width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+    .nav_background{width: 100%;
+    height: 95px;
+    
+    }
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+
+
+
+
+
+
+
+/*Smartphones iPhone6*/
+
+/*hero
+==================================*/
+
+
+@media only screen and (max-width : 375px) {
+        
+        
+        nav {
+        flex-direction: column;
+        }
+    
+    /*about
+    ==================================*/
+
+        .about_images {width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        flex-direction: column;
+        justify-content: space-around;
+        }
+        
+        .nav_background{width: 100%;
+        height: 95px;
+        }
+    
+
+
+=======
+>>>>>>> master
     /*about
     ==================================*/
 
